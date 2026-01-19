@@ -11,7 +11,7 @@ while(len(x) != 1):
             
 while True:
     try:
-        soru_sayac = int(input("Kaç değişken girilecek? "))
+        soru_sayac = int(input("Kaç terim girilecek? "))
         if soru_sayac > 0:
             break
         else:
@@ -72,3 +72,4 @@ else:
                 print(diskriminant1,diskriminant2)
 
 ''' katsayıları yazma meselesi yapılacak '''
+
