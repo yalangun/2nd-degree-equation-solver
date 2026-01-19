@@ -1,9 +1,10 @@
+print("2. derece denklem çözücüye Hoşgeldiniz")
 from math import sqrt
 a = 0
 b = 0
 c = 0
         
-x = input("değişken giriniz:")
+x = input("lütfen değişken giriniz:")
             
 while(len(x) != 1):
     x = input("tek karakterli değişken giriniz:")
@@ -25,7 +26,7 @@ katsayı = ""
 kod = 0
             
 for n in range(soru_sayac):
-                terim = input("terim giriniz.")
+                terim = input("lütfen terim giriniz.(örn: 5x^^2 , 78x , -42): ")
                 terimler.insert(1,terim)
             
 for n in range(soru_sayac):
