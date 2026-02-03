@@ -1,4 +1,4 @@
-print("2. derece denklem çözücüye Hoşgeldiniz")
+print("2. derece denklem çözücü")
 from math import sqrt
 a = 0
 b = 0
@@ -71,5 +71,4 @@ else:
                 
                 print(diskriminant1,diskriminant2)
 
-''' katsayıları yazma meselesi yapılacak '''
 
